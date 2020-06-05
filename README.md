@@ -31,4 +31,5 @@ Para este caso tendremos clases constructores de cada personaje los cuales tendr
 
 ## Autores
 
-* **Diana Valentina Uscategui Tobo - 2017202063
+* **Diana Valentina Uscategui Tobo - 20172020063
+* **Edwin Andres Salinas Chaparro - 20172020087
