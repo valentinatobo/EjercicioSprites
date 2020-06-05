@@ -14,19 +14,19 @@ Abstraen el proceso de instanciación, encapsulan conocimiento sobre qué clases
 
 ## Abstract Factory :factory:
 
-###¿Qué es Abstract Factory?
+### ¿Qué es Abstract Factory?
 Es un patrón de creación que provee una interfaz para crear familias o conjuntos de objetos(productos) relacionados o que dependen entre sí, sin especificar sus clases concretas.
 
-###¿Como se implemento?
+### ¿Como se implemento?
 
 En el proyecto se puede evidenciar el uso de este patrón cuando creamos los productos que contienen la vista de cada personaje(frente, atras, derecha e izquierda) que en este caso seran las imagenes del sprite,  estos los tomara la fabrica del personaje y los unira para el proceso de creación del mismo genrando asi la fabrica de cada personaje con sus vistas respectivas.
 
 ## Builder  :clapper: :construction_worker:
 
-###¿Qué es Builder? 
+### ¿Qué es Builder? 
 Patrón creacional que permite la creación de un objeto complejo, a partir de una variedad de partes que contribuyen individualmente a la creación y ensamblación del objeto mencionado. Hace uso de la frase "divide y conquistarás". Por otro lado, centraliza el proceso de creación en un único punto, de tal forma que el mismo proceso de construcción pueda crear representaciones diferentes.
 
-###¿Como se implemento?
+### ¿Como se implemento?
 Para este caso tendremos clases constructores de cada personaje los cuales tendran relación directa con la fabrica respectiva, tendremos una clase director que sera la encargada de ensamblar las partes entregadas por el constructor y crear el objeto como tal que en este caso es nuestro personaje.
 
 ## Autores
